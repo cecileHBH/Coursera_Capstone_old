@@ -1,6 +1,6 @@
 # Final Report
 
-## Finding "twins" cities
+## Finding a city "twin"
 
 ### Introduction
 
