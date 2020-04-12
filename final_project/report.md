@@ -11,7 +11,9 @@ Choosing the right city is key to a new successful launch and using data science
 
 ### Data
 
-First, we will define a shortlist of cities to analyze and compare to the first one. This list will specified based on basics criterias by the business so we don't analyze cities that do not match the right timezone or language for example.
+We will take Paris (France) as the original city, its venues data will be our point of comparison for the other cities.
+
+First, we will define a shortlist of cities to analyze and compare to the first one. This list will specified based on basics criterias by the business so we don't analyze cities that do not match the right timezone or language for example. We will sefine this list with a few european cities : Lyon (France), Cannes (France), Lisbonne (Portugal), Porto (Portugal), Londres (Grande Bretagne) and Berlin (Germany)
 
 Assuming a city characteristics stand in its offered amenities, we will use the Foursquare API to collect data of venues from specific cities.
 Using different information like the categories (such as transportation, restaurants, outdoor and education) of the venues and the trending venues, we will identify patterns and compare cities.
