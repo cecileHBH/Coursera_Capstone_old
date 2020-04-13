@@ -13,7 +13,7 @@ Choosing the right city is key to a new successful launch and using data science
 
 We will take Paris (France) as the original city, its venues data will be our point of comparison for the other cities.
 
-First, we will define a shortlist of cities to analyze and compare to the first one. This list will specified based on basics criterias by the business so we don't analyze cities that do not match the right timezone or language for example. We will sefine this list with a few european cities : Lyon (France), Lisbonne (Portugal), Londres (Grande Bretagne), Berlin (Germany) and Milano (Italy)
+First, we will define a shortlist of cities to analyze and compare to the first one. This list will specified based on basics criterias by the business so we don't analyze cities that do not match the right timezone or language for example. We will sefine this list with a few european cities : Lyon (France), Lisbon (Portugal), London (Grande Bretagne), Berlin (Germany) and Milano (Italy)
 
 Assuming a city characteristics stand in its offered amenities, we will use the Foursquare API to collect data of venues from specific cities.
 For every city, we will search venues for every neighborhood per main category
@@ -23,7 +23,11 @@ Using different information like the categories (such as transportation, restaur
 ## Source of data
 
 * Paris neighboroods data : [opendata.paris.fr](https://opendata.paris.fr/explore/dataset/arrondissements/export/?location=12,48.85889,2.34692&basemap=jawg.streets&dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6ImFycm9uZGlzc2VtZW50cyIsIm9wdGlvbnMiOnt9fSwiY2hhcnRzIjpbeyJhbGlnbk1vbnRoIjp0cnVlLCJ0eXBlIjoiY29sdW1uIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoibl9zcV9hciIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiMwMDMzNjYifV0sInhBeGlzIjoibl9zcV9hciIsIm1heHBvaW50cyI6NTAsInNvcnQiOiIifV0sInRpbWVzY2FsZSI6IiIsImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9)
-
+* Lyon neighboroods data :
+* Lisbon neighboroods data :
+* London neighboroods data :
+* Berlin neighboroods data :
+* Milano neighboroods data :
 
 ### Methodology
 
