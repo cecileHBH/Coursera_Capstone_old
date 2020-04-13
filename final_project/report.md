@@ -16,6 +16,8 @@ We will take Paris (France) as the original city, its venues data will be our po
 First, we will define a shortlist of cities to analyze and compare to the first one. This list will specified based on basics criterias by the business so we don't analyze cities that do not match the right timezone or language for example. We will sefine this list with a few european cities : Lyon (France), Lisbonne (Portugal), Londres (Grande Bretagne), Berlin (Germany) and Milano (Italy)
 
 Assuming a city characteristics stand in its offered amenities, we will use the Foursquare API to collect data of venues from specific cities.
+For every city, we will search venues for every neighborhood per main category
+
 Using different information like the categories (such as transportation, restaurants, outdoor and education) of the venues and the trending venues, we will identify patterns and compare cities.
 
 ## Source of data
@@ -24,6 +26,14 @@ Using different information like the categories (such as transportation, restaur
 
 
 ### Methodology
+
+#### Collecting city data
+As we cannot get all the venues of a city easily, we collect a dataset consisting of the first 50 venues for every neighborhood per main category using Foursquare API. 
+
+#### Cleaning data
+We might have duplicates using this methodology because we collected the venues per neighborhood using their latitude, longitude and a radius, some venues might overlap over multiple neighborhood so we will remove every duplicates.
+
+#### Finding similarities
 
 ### Results
 
