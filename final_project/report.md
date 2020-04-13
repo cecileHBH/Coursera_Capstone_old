@@ -18,6 +18,11 @@ First, we will define a shortlist of cities to analyze and compare to the first 
 Assuming a city characteristics stand in its offered amenities, we will use the Foursquare API to collect data of venues from specific cities.
 Using different information like the categories (such as transportation, restaurants, outdoor and education) of the venues and the trending venues, we will identify patterns and compare cities.
 
+## Source of data
+
+opendata.paris.fr for the Paris neighboroods data : 
+https://opendata.paris.fr/explore/dataset/arrondissements/export/?location=12,48.85889,2.34692&basemap=jawg.streets&dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6ImFycm9uZGlzc2VtZW50cyIsIm9wdGlvbnMiOnt9fSwiY2hhcnRzIjpbeyJhbGlnbk1vbnRoIjp0cnVlLCJ0eXBlIjoiY29sdW1uIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoibl9zcV9hciIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiMwMDMzNjYifV0sInhBeGlzIjoibl9zcV9hciIsIm1heHBvaW50cyI6NTAsInNvcnQiOiIifV0sInRpbWVzY2FsZSI6IiIsImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9
+
 ### Methodology
 
 ### Results
